@@ -1,7 +1,7 @@
 # Bellabeat Case Study - Google Data Analytics Capstone
 
 ## Business Task
-As a junior data analyst on the Bellabeat marketing team, the goal was to analyze Fitbit smart device usage data to identify key trends in consumer behavior (activity, sleep, and usage patterns). These insights were then used to provide high-level marketing strategy recommendations for the **Bellabeat app**.
+As a junior data analyst on the Bellabeat marketing team, I analyzed Fitbit smart device usage data to identify key trends in consumer behavior (activity, sleep, and usage patterns). The goal was to provide high-level marketing strategy recommendations for the **Bellabeat app**.
 
 ## Dataset
 **Source**: FitBit Fitness Tracker Data (CC0: Public Domain)  
@@ -66,8 +66,3 @@ Bellabeat-Case-Study/
 - SQL queries (cleaning + analysis) are saved in BigQuery Sandbox
 - Tableau Public dashboards (link will be added after creation)
 - Full insights, visualizations, and recommendations are documented in this README
-
-
-3. Promote the **Bellabeat app + Time watch** bundle by highlighting personalized wellness guidance through the membership program.
-
-## Repository Structure
