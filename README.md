@@ -44,6 +44,7 @@ Activity drops significantly on Sunday. Create “Sunday Reset” features combi
 **Promote Sleep + Activity Integration**  
 Encourage users to track sleep more consistently by highlighting how better sleep leads to higher daily energy and activity. Bundle the Leaf/Time watch with the membership program for personalized wellness guidance.
 
+```
 ## Repository Structure
 Bellabeat-Case-Study/
 ├── sql/
@@ -52,6 +53,7 @@ Bellabeat-Case-Study/
 ├── visualizations/          # Screenshots of Tableau dashboards
 ├── README.md
 └── presentation.pdf         # Optional final slide deck
+```
 
 ## How to View the Project
 SQL queries (cleaning + analysis) are saved in BigQuery Sandbox
