@@ -1,12 +1,13 @@
 # Bellabeat Case Study - Google Data Analytics Capstone
 
 ## Business Task
-As a junior data analyst on the Bellabeat marketing team, I analyzed Fitbit smart device usage data to identify key trends in consumer behavior (activity, sleep, and usage patterns). The goal was to provide high-level marketing strategy recommendations for the **Bellabeat app**.
+As a junior data analyst on the Bellabeat marketing team, I analyzed Fitbit smart device usage data to uncover trends in how people use fitness trackers — focusing on activity levels, sleep patterns, and daily habits. The goal was to translate these insights into high-level marketing recommendations to help grow the **Bellabeat app**.
 
 ## Dataset
 **Source**: FitBit Fitness Tracker Data (CC0: Public Domain)  
 **Link**: [Kaggle - Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
-**Description**: Personal fitness tracker data from approximately 30 Fitbit users collected between April and May 2016.
+
+This dataset contains personal fitness tracker data from ~30 Fitbit users collected over one month (April–May 2016).
 
 ### Files Used
 - `dailyActivity_merged.csv` (main table)
@@ -16,44 +17,44 @@ As a junior data analyst on the Bellabeat marketing team, I analyzed Fitbit smar
 - `weightLogInfo_merged.csv`
 
 ### ROCCC Evaluation
-- **Reliable**: Medium (device-collected, but small self-selected sample)
+- **Reliable**: Medium – data collected from devices, but from a small self-selected group
 - **Original**: Yes
-- **Comprehensive**: Low-Medium (good coverage of activity and sleep, lacks demographics)
+- **Comprehensive**: Low-Medium – good coverage of activity and sleep, but missing demographics
 - **Current**: Low (data from 2016)
 - **Cited**: Yes
 
-**Limitations**: Small sample size (~30 users), short time period (1 month), no gender or age information, possible bias toward fitness enthusiasts.
+**Limitations**: Small sample size (~30 users), short time frame, no age or gender information, and possible bias toward fitness enthusiasts.
 
 ## Tools Used
-- **BigQuery Sandbox** (SQL) – Data cleaning and analysis
-- **Tableau Public** – Data visualization and dashboards
-- **GitHub** – Portfolio documentation
+- **BigQuery Sandbox** (SQL) – data cleaning and analysis
+- **Tableau Public** – interactive visualizations and dashboards
+- **GitHub** – project documentation and portfolio
 
 ## Process Summary
-1. **Ask**: Defined business task and key questions
-2. **Prepare**: Downloaded and evaluated Fitbit dataset + performed ROCCC analysis
-3. **Process**: Uploaded CSVs to BigQuery Sandbox and cleaned data (fixed timestamps, handled data types)
-4. **Analyze**: Performed user segmentation, weekday/hourly trends, sleep analysis, and correlation
-5. **Share**: Created interactive dashboards in Tableau Public
-6. **Act**: Developed high-level marketing recommendations for Bellabeat
+I followed the Google Data Analytics framework:
+1. **Ask** – Defined the business question and key analysis areas
+2. **Prepare** – Downloaded the dataset and performed ROCCC evaluation
+3. **Process** – Cleaned and transformed the data in BigQuery (fixed timestamps, removed duplicates, standardized formats)
+4. **Analyze** – Conducted user segmentation, weekday/hourly trends, sleep-activity correlation, and usage patterns
+5. **Share** – Built interactive dashboards in Tableau Public
+6. **Act** – Formulated actionable marketing recommendations for Bellabeat
 
 ## Key Insights
-- The user base is dominated by **Lightly Active** (27.3%) and **Fairly Active** (27.3%) users, with 24.2% Sedentary and only 21.2% Very Active.
-- Activity levels peak on **Tuesday** and **Saturday**, with the lowest activity on **Sunday**.
-- Sleep tracking is used less frequently than activity tracking, showing an opportunity for better integration.
+- Most users fall into the **Lightly Active** and **Fairly Active** categories (27.3% each), with only 21.2% being Very Active.
+- Activity peaks on **Tuesday** and **Saturday**, with a noticeable drop on **Sunday**.
+- Sleep tracking is used significantly less than activity tracking, revealing a clear opportunity for better engagement.
 
 ## Recommendations for Bellabeat
 1. **Target Lightly Active Users**  
-   Focus marketing on gentle, achievable activity features in the Bellabeat app (e.g., mindfulness walks, light movement goals). Position the **Bellabeat app + Time watch** as the ideal wellness companion for women who want to stay active without intense fitness routines.
+   Create gentle, achievable challenges and mindfulness-focused features in the Bellabeat app. Position the **Bellabeat app + Time watch** as the perfect wellness companion for women who want balanced, non-intense activity support.
 
 2. **Improve Weekend Consistency**  
-   Activity drops significantly on Sunday. Create “Sunday Reset” features combining light activity, sleep tracking, and mindfulness, and send targeted notifications to maintain user engagement throughout the week.
+   Activity drops on Sundays. Introduce a “Sunday Reset” concept with light movement, sleep insights, and mindfulness prompts to help users maintain momentum throughout the week.
 
 3. **Promote Sleep + Activity Integration**  
-   Encourage users to track sleep more consistently by highlighting how better sleep leads to higher daily energy and activity. Bundle the Leaf/Time watch with the membership program for personalized wellness guidance.
+   Highlight the connection between good sleep and higher daily energy. Encourage consistent sleep tracking and bundle it with the membership program for personalized wellness guidance.
 
 ## Repository Structure
-
 ```
 Bellabeat-Case-Study/
 ├── sql/
@@ -61,10 +62,16 @@ Bellabeat-Case-Study/
 │   └── analysis_queries/
 ├── visualizations/          # Screenshots of Tableau dashboards
 ├── README.md
-└── presentation.pdf         # Optional final slide deck
+└── presentation.pdf 
 ```
 
 ## How to View the Project
-- SQL queries (cleaning + analysis) are saved in BigQuery Sandbox
-- Tableau Public Dashboard: https://public.tableau.com/authoring/BellabeatAnalysis_17750641970610/BellabeatMarketingInsightsfromFitbitData#1
-- Full insights, visualizations, and recommendations are documented in this README
+- SQL queries (cleaning + analysis) → `sql/` folder
+- Interactive Tableau Public Dashboard: [Bellabeat Marketing Insights from Fitbit Data](https://public.tableau.com/authoring/BellabeatAnalysis_17750641970610/BellabeatMarketingInsightsfromFitbitData#1)
+- Full analysis and recommendations are documented in this README
+
+---
+
+This version sounds much more **natural**, flows better, and feels like something a real person wrote (not too robotic).  
+
+Would you like any small tweaks before you commit it? Or is this good to go?
