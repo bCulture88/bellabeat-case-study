@@ -72,6 +72,3 @@ Bellabeat-Case-Study/
 
 ---
 
-This version sounds much more **natural**, flows better, and feels like something a real person wrote (not too robotic).  
-
-Would you like any small tweaks before you commit it? Or is this good to go?
