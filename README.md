@@ -69,7 +69,8 @@ Bellabeat-Case-Study/
 
 ## How to View the Project
 - SQL queries (cleaning + analysis) → `sql/` folder
-- Interactive Tableau Public Dashboard: [Bellabeat Marketing Insights from Fitbit Data](https://public.tableau.com/authoring/BellabeatAnalysis_17750641970610/BellabeatMarketingInsightsfromFitbitData#1)
+- Interactive Tableau Public Dashboard: [Bellabeat Marketing Insights from Fitbit Data]
+  https://public.tableau.com/views/BellabeatAnalysis_17750641970610/BellabeatMarketingInsightsfromFitbitData
 - Full insights, visualizations, and recommendations are documented in this README
 
 ---
